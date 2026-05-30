@@ -4,6 +4,15 @@
 
 实现顺序：单头、多头、RoPE
 
+# TODO
+
+1. 补充核心机制：KV Cache
+2. 替换归一化：将 LayerNorm 改为 RMSNorm
+3. 替换激活函数：将 FFN 改为 SwiGLU
+
+
+---
+
 一些问答
 
 ### 为什么要除以 √d_k？
